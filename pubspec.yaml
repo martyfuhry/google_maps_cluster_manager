@@ -11,8 +11,12 @@ dependencies:
     sdk: flutter
 
   geohash: ^0.2.1
-  google_maps_flutter: ^1.0.6
-
+  google_maps_flutter:
+    git:
+      url: git://github.com/martyfuhry/plugins.git
+      path: packages/google_maps_flutter/google_maps_flutter
+      ref: tile_optimize
+    
 dev_dependencies:
   flutter_test:
     sdk: flutter
